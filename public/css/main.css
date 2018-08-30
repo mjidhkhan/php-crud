@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:700');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200i,300,300i,400,400i,600,600i&subset=latin-ext');
+body {
+	background: rgb(187, 185, 185);
+}
+
+.alert {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	z-index: +1;
+}
+.page-font {
+	font-family: 'Raleway', sans-serif;
+}
+.search-font {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+.bg-white {
+	background: #ffffff;
+	padding: 2rem;
+}
+.logo-font {
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	min-height: 100%;
+}
+.top-space {
+	margin-top: 2rem;
+}
+
+.shadow {
+	/*start ------------*/
+
+	border: solid #bdbdbd 0px;
+	box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+}
